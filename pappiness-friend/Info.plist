@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleURLTypes</key>
+    <array>
+        <!-- Schéma d'URL pour Facebook -->
+        <dict>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>fb711893601120775</string>
+            </array>
+        </dict>
+        <!-- Schéma d'URL pour Google Sign-In -->
+        <dict>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>com.googleusercontent.apps.598976090296-qrr6jli0g0ueobfl2tl03abku0j3ps7q</string>
+            </array>
+        </dict>
+    </array>
+
+    <!-- Clés Facebook -->
+    <key>FacebookAppID</key>
+    <string>711893601120775</string>
+    <key>FacebookClientToken</key>
+    <string>5021e84714517bda6c72daebdda5315f</string>
+    <key>FacebookDisplayName</key>
+    <string>papysitting</string>
+
+    <!-- Permissions pour les URL schemes utilisés -->
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>fbapi</string>
+        <string>fb-messenger-share-api</string>
+        <string>fbauth2</string>
+        <string>fbshareextension</string>
+    </array>
+</dict>
+</plist>
